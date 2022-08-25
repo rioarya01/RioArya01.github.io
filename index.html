@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -46,11 +49,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/foto.JPG" alt="Ulquiorra Schiffer" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/foto.JPG" alt="foto" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4 fw-bold">I Gede Rio Arya Bawesi</h1>
-      <p class="lead fw-normal">Mahasiswa Institut Bisnis dan Teknologi Indonesia
-        
-      </p>
+      <p class="lead fw-normal"> </p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1"
           d="M0,160L48,186.7C96,213,192,267,288,266.7C384,267,480,213,576,213.3C672,213,768,267,864,261.3C960,256,1056,192,1152,165.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -61,7 +62,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-delay="200">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -70,12 +71,12 @@
 
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-8">
-            <p>Saya merupakan Mahasiswa Teknik Informatika jurusan lomputer Akuntansi dan Bisnis di Institut Bisnis dan Teknologi Indonesia. 
-              Saat ini saya baru menempuh semester 5 dan sedang mendalami dunia Programming khususnya PHP dan Java.
+            <p>Saya merupakan Mahasiswa Teknik Informatika jurusan komputer Akuntansi dan Bisnis di Institut Bisnis dan Teknologi Indonesia. 
+              Saat ini saya baru menempuh semester 5 dan sedang mendalami dunia Web Programming.
               Selain itu, saya juga merupakan lulusan Accounting di SMK khususnya pada bidang Perusahaan Jasa dan Dagang.
-              Saya seorang yang sangat teliti dan terampil mengoperasikan platform IT serta platform keuangan.
+              Saya seorang yang sangat teliti dan terampil mengoperasikan software IT serta software keuangan.
               Dan juga memiliki kemampuan komunikasi lisan dan verbal yang baik, 
-              lalu mampu memaparkan isu-isu software yang kompleks dalam istilah yang mudah dipahami.</p>
+              lalu mampu memaparkan isu-isu software dalam istilah yang mudah dipahami.</p>
           </div>
         </div>
       </div>
@@ -98,7 +99,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500">
               <img src="img/projects/a.png" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <p class="card-text text-center">Project sederhana saya dengan menggunakan framework bootstrap dan PHP. Pada website tersebut berisi tentang pendaftaran kursus Bahasa Asing.</p>
@@ -106,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/b.png" class="card-img-top" alt="Project2" />
               <div class="card-body">
                 <p class="card-text text-center">Project sederhana saya dengan menggunakan framework bootstrap dan PHP. Pada website tersebut berisi tentang CRUD pada Daftar Tabel Mahasiswa.</p>
@@ -114,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/c.png" class="card-img-top" alt="Project3" />
               <div class="card-body">
                 <p class="card-text text-center">Project sederhana saya dengan menggunakan HTML, CSS, PHP. Pada website tersebut merupakan tampilan awal pada project yang sebelumnya. </p>
@@ -122,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/d.png" class="card-img-top" alt="Project4" />
               <div class="card-body">
                 <p class="card-text text-center">Project sederhana saya dengan menggunakan bootstrap. Disini hanya tampilan dalam pembuatan jenis-jenis tabel yang ada di Bootstrap versi 5. Seperti Simple Table, Background Color Table, Table Head Dark dan lainnya.</p>
@@ -130,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/e.png" class="card-img-top" alt="Project5" />
               <div class="card-body">
                 <p class="card-text text-center">Project sederhana saya dengan menggunakan Java. Disini saya menggunakan Java GUI Swing untuk program Dekstop pada tampilan tersebut. Lalu untuk Database yang digunakan yaitu MySQL. </p>
@@ -146,6 +147,25 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <!-- <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -200,6 +220,29 @@
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          once: true,
+          duration: 2000,
+        });
+      </script>
+
+    <!-- Script GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <!-- Script GSAP Text -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.from('.jumbotron img', {duration: 1, rotationY:360, opacity: 0 });
+      gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text:'Mahasiswa Institut Bisnis dan Teknologi Indonesia' });
+    </script>
+
+    <!-- Script Contact Me -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycby2Ulyw6kZ2W_-3z9vuwhNwfVhMK7eFbrrYmO7HrYftSiIlDgZGKE2gswqMex6Ms778DA/exec';
       const form = document.forms['contact-form'];
